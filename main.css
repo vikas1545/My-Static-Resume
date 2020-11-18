@@ -1,0 +1,392 @@
+body {
+    margin: 0px;
+}
+
+/* .......Body-header..... */
+
+#body-header {
+    background-image: url(image/image1.jpg);
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+#body-header nav ul li{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin:3% 0 0 3%;
+}
+#body-header nav ul a{
+    
+ text-decoration:none ;
+ color: whitesmoke;
+ transition: color 0.5s,text-decoration .4s;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* font-weight:600; */
+}
+.text-center {
+    text-align: center;
+}
+
+#body-header nav ul a:hover {  
+    text-decoration:underline ;
+    color:#6d9eed;
+    
+    }
+
+    #name-social-container div #My-name {
+        color:white;
+        margin: 8rem 0rem 0rem 4rem;
+        font-size: 5rem;
+    }
+#name-social-container .horizontal-list li {
+    display: inline;
+    list-style: none;
+    text-decoration:none;
+    font-size: 2rem;
+    /* border-radius: 4px; */
+}
+
+#name-social-container .horizontal-list li a {
+ text-decoration:none ;
+ margin: 0.4rem;
+ color: white;
+ padding: 0.5rem;
+ 
+}
+#name-social-container .horizontal-list li a:hover {
+    background-color: #535454;
+    border-radius: 50%;
+    opacity: 0.6;
+    background-color: black;
+    box-shadow: 0px 0px 6px ;   
+}
+
+/* ...............main.................. */
+
+#about {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#about :target {
+    
+    background-color: #6d9eed;
+}
+
+#my-image {
+    
+    width: 12rem;
+    height: 12rem;
+}
+
+#my-image img {
+
+ width:100% ;
+ height:100%;
+ margin-left:35rem;
+ border-radius: 50%;
+ margin-top:-5rem;
+ box-shadow: 0px 0px 6px ;
+}
+
+#about p {
+    margin:-1rem 12rem 1rem 12rem; 
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing:1px;
+    word-spacing: 1.4px;
+    font-weight: 500;
+}
+
+#spn {
+    color: rgb(143, 50, 22);
+}
+
+
+section:nth-child(2n) {
+    background-color: #9e9b9b29;
+}
+
+section:nth-child(2n +1) {
+    background-color:white;
+}
+        /* ......Skills........ */
+
+ #skills-section{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+ }       
+.section-heading {
+    width: auto;
+    padding:20px 10px 10px;
+    /* margin:10px auto; */
+    font-weight: 400;
+}
+
+.section-heading span {
+    font-size: 2rem;
+    display: inline-block;
+    padding-top: 10px;
+    margin: 0.5rem;
+    color: lightseagreen;
+}
+
+.skills-display {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.skill-progress {
+       width: 8rem;
+       height: 2rem;
+       background-color: lightgray;
+       border-radius: 0.8rem;
+       margin: 4%;
+}
+
+.seventy-percent {
+   width: 70%;
+   height: 100%;
+}
+.java {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    border-radius: 0.8rem 0 0 0.8rem;
+}
+.java span {
+    padding-left:1.4rem;
+    /* padding-top:1.5rem; */
+    
+    color:white;
+    font-size: 1.6rem;
+}
+
+.eighty-percent {
+    width: 80%;
+    height: 100%;
+ }
+ .HTML {
+     height: 100%;
+     width: 100%;
+     background-color:orangered;
+     border-radius: 0.8rem 0 0 0.8rem;
+ }
+ .HTML span {
+     padding-left:1.5rem;
+     color:white;
+     font-size: 1.4rem;
+ }
+
+ .eighty-one-percent {
+    width: 81%;
+    height: 100%;
+ }
+ .CSS {
+    height: 100%;
+    width: 100%;
+    background-color:#c242f5;
+    border-radius: 0.8rem 0 0 0.8rem;
+}
+.CSS span {
+    padding-left:1.5rem;
+    color:white;
+    font-size: 1.4rem;
+}
+
+ .sixty-five-percent {
+    width: 65%;
+    height: 100%;
+ }
+ .javaScript {
+    height: 100%;
+    width: 100%;
+    background-color:#b51f26;
+    border-radius: 0.8rem 0 0 0.8rem;
+}
+.javaScript span {
+    padding-left:0.2rem;
+    color:white;
+    font-size: 1.2rem;
+} 
+
+.fifty-percent {
+    width: 50%;
+    height: 100%;
+ }
+ .NodeJs{
+    height: 100%;
+    width: 100%;
+    background-color:#543d3b;
+    border-radius: 0.8rem 0 0 0.8rem;
+}
+.NodeJs span {
+    padding-left:0.5rem;
+    /* padding-top:0.5rem; */
+    color:white;
+    font-size: 1.2rem;
+} 
+
+.MYSQL{
+    height: 100%;
+    width: 100%;
+    background-color:hsl(55, 17%, 28%);
+    border-radius: 0.8rem 0 0 0.8rem;
+}
+.MYSQL span {
+    padding-left:0.5rem;
+    /* padding-top:0.5rem; */
+    color:white;
+    font-size: 1.2rem;
+} 
+
+
+
+/* .............Education......... */
+
+
+#education-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}  
+
+.education-display {
+    width:70%;
+    
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    position: relative;
+    /* border:2px solid black; */
+    
+    
+}
+
+.education {
+    position: relative;
+    width: 35%;
+    margin: 5px;
+    min-height: 150px;
+    border:2px solid black;
+    left:9%;
+
+}
+.education:nth-child(2n) {
+    margin-left: 45%;
+}
+
+.devider {
+    border-right: 3px dotted #32a897;
+    width:0%;
+    height: 75%;
+    position: absolute;
+    left: 49%;
+    top: 10%;
+}
+
+@media screen and (max-width:600px) {
+
+    #my-image img{
+        margin:50%;
+       position: relative;
+       
+    }
+
+    .devider {
+        left:8%;
+    }
+     
+    .education:nth-child(2n) {
+        margin-left: 12%;
+        width:90%;
+    }
+
+    .education:nth-child(2n+1) {
+        margin-left: 12%;
+        width:90%;
+    }
+
+    .education:nth-child(2n)::after {
+        left: 8%;
+    }
+    .education:nth-child(2n+1)::after {
+        left: -16.8%;
+    }
+
+
+}
+
+.institude {
+    /* position:sticky; */
+    /* transform: rotate(180deg); */
+    font-size: 2.1rem;
+    color:#20B2AA;
+}
+
+.education:nth-child(2n+1)::after {
+    content: " ";
+    border-radius: 50%;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #939596;
+    position: absolute;
+    top:35%;
+    right: -15%;
+}
+
+.education:nth-child(2n)::after {
+    content: " ";
+    border-radius: 50%;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #939596;
+    position: absolute;
+    top:35%;
+    left: -16.3%;
+}
+
+.edu-logo >i,.degree >h4{
+    display: inline-block;
+    color:#20B2AA;
+
+}
+
+.edu-logo >i {
+    font-size: 2rem;
+    margin-left:4rem;
+    margin-top: 2rem;
+    position:absolute;
+}
+.degree >h4{ 
+    padding-left: 70%;
+    font-size: 1rem;
+    color:#20B2AA;
+}
+
+.college,.year,.marks {
+    padding-left: 58%;
+    color: #524940;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.college{
+    padding-left: 60%;
+    color:#c76604;
+}
+
+.institude {
+    position: sticky;
+    top: 80%;
+    
+}
+
+
